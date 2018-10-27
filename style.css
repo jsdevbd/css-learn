@@ -1,0 +1,88 @@
+
+.clear-test {
+  clear: right;
+}
+
+img {
+  float: right;
+}
+
+p:nth-child(even) {
+  /* background-color: yellow; */
+}
+
+.pseudo-class a {
+  text-decoration: none;
+}
+
+.pseudo-class a:link {
+  color: purple;
+}
+
+.pseudo-class a:visited {
+  color: red;
+}
+
+.pseudo-class a:hover {
+  color: yellow;
+}
+
+.pseudo-class a:active {
+  color: green;
+}
+
+
+p::first-line {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+.box {
+  padding: 10px 20px 30px 40px;
+}
+
+p {
+  color: red;
+}
+
+#h3-div {
+  /* h3
+    color 
+  */
+  color: blue;
+}
+
+#h2-div {
+  color: rgb(121, 216, 112);
+}
+
+.h2-div2 {
+  color: red !important;
+}
+.h2-div {
+  color: Orange;
+}
+
+.combinators {
+  color: green;
+}
+
+.combinators > p {
+  background-color: red;
+  color: yellow;
+}
+
+
+.combinators + p {
+  background-color: yellow;
+}
+
+.combinators ~ p {
+  background-color: blue;
+}
+
+.g1, #g1, h3 {
+  color: red;
+}
