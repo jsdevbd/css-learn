@@ -1,0 +1,38 @@
+body,header.columns,
+form#contact
+{
+	padding-top: 35px;
+}
+
+div.tile
+{
+	margin: 0px 20px;
+}
+
+
+form#contact
+{
+	margin: 0px 40px;	
+}
+
+footer.footer
+{
+	margin-top: 10px;
+}
+p.title
+{
+	color: #206f63;
+}
+
+header img
+{
+	height:150px;
+	width:150px;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+
+header div.column>h1
+{
+	color: #4d4d96;
+}
