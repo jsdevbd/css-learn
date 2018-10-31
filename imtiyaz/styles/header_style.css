@@ -1,0 +1,18 @@
+body{
+    background-image: url("../images/background.jpg");
+}
+header #profile_img{
+    margin-left: 20%;
+    float: left;
+}
+header #profile_img img{
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+}
+
+header #contact_info table{
+    text-align: right;
+    margin-left: 48%;
+    font-family: Helvetica, Arial, sans-serif;;
+}
