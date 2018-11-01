@@ -1,0 +1,159 @@
+*{
+    
+    margin: 0;
+    padding:0;
+    
+}
+.header{
+   padding: 60px 70px; 
+}
+.header img{
+   height: 150px;
+    width: 190px;
+}
+.header h1{
+ font-family: roboto;
+ font-size: 40px; 
+ color:darkblue;
+    
+    
+}
+.header p{
+   font-family: roboto;
+   font-size: 18px;  
+}
+.Objective{
+    padding: 50px 50px;
+}
+.Objective h3{
+ font-family: roboto;
+ font-size: 25px; 
+ color:blueviolet;
+ border-bottom: 2px solid blueviolet;
+ display: inline-block;
+}
+.Objective p{
+     font-family: roboto;
+   font-size: 18px; 
+    padding-top: 10px;
+}
+.Work{
+    padding: 0px 50px;
+}
+.Work h3{
+ font-family: roboto;
+ font-size: 25px; 
+ color:blueviolet;
+ border-bottom: 2px solid blueviolet;
+ display: inline-block;
+}
+.Work p{
+    font-family: roboto;
+    font-size: 18px; 
+    padding-top: 10px;
+}
+.Education{
+     padding: 50px 50px;
+}
+.Education h3{
+ font-family: roboto;
+ font-size: 25px; 
+ color:blueviolet;
+ border-bottom: 2px solid blueviolet;
+ display: inline-block;
+  
+}
+.Education table{
+    margin-top: 10px;
+}
+.Education table thead{}
+.Education table thead th{}
+.Education table tbody tr{}
+.Education table tbody tr td{}
+
+.Skills{
+     padding: 0px 50px;
+}
+.Skills h3{
+    font-family: roboto;
+ font-size: 25px; 
+ color:blueviolet;
+ border-bottom: 2px solid blueviolet;
+ display: inline-block;
+}
+.Skills p{
+     font-family: roboto;
+    font-size: 18px; 
+    padding-top: 10px;
+}
+.Achievements{
+      padding: 50px 50px;
+}
+.Achievements h3{
+    font-family: roboto;
+ font-size: 25px; 
+ color:blueviolet;
+ border-bottom: 2px solid blueviolet;
+ display: inline-block;
+}
+.Achievements p{
+    font-family: roboto;
+    font-size: 18px; 
+    padding-top: 10px;
+}
+.contact-me{
+     padding: 0px 50px;
+}
+
+.contact h3{
+ font-family: roboto;
+ font-size: 25px; 
+ color:blueviolet;
+ border-bottom: 2px solid blueviolet;
+ display: inline-block; 
+}
+
+.contact input[type=text], .contact input[type=email],  .contact input[type=digit]{
+	width: 20%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.contact textarea{
+	width: 20%;
+	height: 120px;
+	margin-bottom: 10px;
+}
+.contact input[type=submit], .contact input[type=reset] {
+	background-color: #e74c3c;
+	border: none;
+	padding: 10px 20px;
+	color: #fff;
+}
+.contact input[type=submit]:hover{
+	background-color: #c0392b;
+	cursor: pointer;
+}
+.contact input[type=reset]:hover{
+    background-color: #c0392b;
+	cursor: pointer;
+}
+.video{
+    padding: 0px 50px;
+}
+.video h3{
+    font-family: roboto;
+ font-size: 25px; 
+ color:blueviolet;
+ border-bottom: 2px solid blueviolet;
+ display: inline-block; 
+}
+.audio{
+    padding: 0px 50px;
+}
+.audio h3{
+    font-family: roboto;
+ font-size: 25px; 
+ color:blueviolet;
+ border-bottom: 2px solid blueviolet;
+ display: inline-block; 
+}
