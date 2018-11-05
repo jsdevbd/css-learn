@@ -14,3 +14,11 @@ nav .container .row .col table td{
 nav .container{
     margin-left: 15%;
 }
+
+article .container{
+    margin-top: 60px;
+}
+
+footer{
+    padding: 30px;
+}
