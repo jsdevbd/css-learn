@@ -1,0 +1,16 @@
+header .container{
+    margin-top: 20px;
+}
+
+header .container .row table{
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav .container .row .col table td{
+    padding: 10px;
+}
+
+nav .container{
+    margin-left: 15%;
+}
