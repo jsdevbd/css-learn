@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(213, 218, 189);
+    color: rgb(44, 3, 35);
+}
+h1{
+    font-family: ubuntu;
+    color : orangered;
+    background-color: aqua;
+    border : 2px solid salmon;
+}
+
+
+ul li{
+    color : red;
+}
+
+ul span {
+    color : blue;
+}
+
+ol li{
+    color : darkred;
+}
+ol span {
+    color : blueviolet;
+}
+
+#image-1{
+    float: right;
+    font-weight: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+a:visited{
+    color: crimson;
+}
+a:hover,
+a:active,
+a:focus{
+    color: rgb(70, 3, 109);
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+#par-1:hover{
+    color: teal;
+}
+#par-1{
+    font-family: cursive;
+}
+
+#par-1::first-line {
+    color: blue;
+}
+
+#par-2{
+    background-color: goldenrod;
+    clear: both;
+    padding: 5px;
+}
+#par-3{
+    background-color: silver;
+    clear: both;
+    padding: 5px;
+}
+
+.combinator > p {
+    color : rgb(128, 64, 64);
+}
+
+.tab{
+    color: maroon
+}
+
+table tr td:nth-child(even){
+    background-color: rgb(24, 141, 135);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+table tr td:nth-child(odd){
+    background-color: springgreen;
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+}
+
+[gender = "male"]{
+    color: rgb(233, 236, 17);
+}
+[gender = "female"]{
+    color: red;
+}
+
+.instructors{
+    font-weight: bold;
+    font-family : 'Courier New', Courier, monospace;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 150%;
+}
+
+p::selection{
+    color:gold;
+    background: red;
+}
+
+.video{
+    float: right;
+}
+
+.texta{
+    clear: both;
+}
+
+#button{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
